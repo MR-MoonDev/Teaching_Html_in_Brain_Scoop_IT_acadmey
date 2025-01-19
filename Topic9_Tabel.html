@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tag</title>
+  </head>
+  <body>
+    <!-- Horizontal Heading -->
+
+    <table style="border-collapse: collapse;">
+      <tr>
+        <th style="border: 2px solid black; text-align: center">Name</th>
+        <th style="border: 2px solid black; text-align: center">Phone</th>
+        <th style="border: 2px solid black; text-align: center">Email</th>
+        <th style="border: 2px solid black; text-align: center">order</th>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center">Muneeb</td>
+        <td style="border: 2px solid black; text-align: center">0000000</td>
+        <td style="border: 2px solid black; text-align: center">
+          muneeb@gamil.com
+        </td>
+        <td style="border: 2px solid black; text-align: center">3</td>
+      </tr>
+      <tr>
+        <td style="border: 2px solid black; text-align: center">Areeb</td>
+        <td style="border: 2px solid black; text-align: center">1111111</td>
+        <td style="border: 2px solid black; text-align: center">
+          areeb@gmial.com
+        </td>
+        <td style="border: 2px solid black; text-align: center">9</td>
+      </tr>
+    </table>
+    <br /><br />
+    <!-- Vertical Heading -->
+
+    <table style="text-align: center;border-collapse: collapse;">
+      <tr>
+        <th style="border: 2px solid black">Name</th>
+        <td style="border: 2px solid black">Muneeb</td>
+        <td style="border: 2px solid black">Areeb</td>
+      </tr>
+      <tr>
+        <th style="border: 2px solid black">Phone</th>
+        <td style="border: 2px solid black">00000</td>
+        <td style="border: 2px solid black">11111</td>
+      </tr>
+      <tr>
+        <th style="border: 2px solid black">Email</th>
+        <td style="border: 2px solid black">muneeb@gmial.com</td>
+        <td style="border: 2px solid black">areeb@gmial.com</td>
+      </tr>
+      <tr>
+        <th style="border: 2px solid black">Order</th>
+        <td style="border: 2px solid black">3</td>
+        <td style="border: 2px solid black">9</td>
+      </tr>
+    </table>
+
+    <!-- ColSpan -->
+    <br />
+    <br />
+    <table style="border-collapse: collapse; border: 1px solid black">
+      <tr>
+        <th
+          colspan="3"
+          style="
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: gray;
+          "
+        >
+          Header Spanning 3 Columns
+        </th>
+      </tr>
+      <tr>
+        <th
+          style="
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: #f2f2f2;
+          "
+        >
+          Column 1
+        </th>
+        <th
+          style="
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: #f2f2f2;
+          "
+        >
+          Column 2
+        </th>
+        <th
+          style="
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: #f2f2f2;
+          "
+        >
+          Column 3
+        </th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; text-align: center; padding: 8px">
+          Data 1
+        </td>
+        <td style="border: 1px solid black; text-align: center; padding: 8px">
+          Data 2
+        </td>
+        <td style="border: 1px solid black; text-align: center; padding: 8px">
+          Data 3
+        </td>
+      </tr>
+      <tr>
+        <td
+          colspan="2"
+          style="
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: aquamarine;
+          "
+        >
+          Spanning 2 Columns
+        </td>
+        <td style="border: 1px solid black; text-align: center; padding: 8px">
+          Data 4
+        </td>
+      </tr>
+    </table>
+
+    <br><br>
+     
+    <!-- rowspan -->
+     
+    <table style="border-collapse: collapse; border: 1px solid black;">
+        <tr>
+          <th style="border: 1px solid black; text-align: center; padding: 8px; background-color: #f2f2f2;">Column 1</th>
+          <th style="border: 1px solid black; text-align: center; padding: 8px; background-color: #f2f2f2;">Column 2</th>
+          <th style="border: 1px solid black; text-align: center; padding: 8px; background-color: #f2f2f2;">Column 3</th>
+        </tr>
+        <tr>
+          <td rowspan="2" style="border: 1px solid black; text-align: center; padding: 8px;background-color: aquamarine;">
+            Rowspan 2
+          </td>
+          <td style="border: 1px solid black; text-align: center; padding: 8px;">Data 1</td>
+          <td style="border: 1px solid black; text-align: center; padding: 8px;">Data 2</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; text-align: center; padding: 8px;">Data 3</td>
+          <td style="border: 1px solid black; text-align: center; padding: 8px;">Data 4</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; text-align: center; padding: 8px;">Data 5</td>
+          <td  style="border: 1px solid black; text-align: center; padding: 8px;">
+            Data 5
+          </td><td  style="border: 1px solid black; text-align: center; padding: 8px;">
+            Data 6
+          </td>
+        </tr>
+      </table>
+  </body>
+</html>
